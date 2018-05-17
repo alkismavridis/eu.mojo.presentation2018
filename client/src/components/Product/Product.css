@@ -1,0 +1,87 @@
+/*region COLORS*/
+/*endregion*/
+/*region UNITS*/
+/*endregion*/
+/*region FONTS*/
+/*endregion*/
+.Product_root {
+  border: solid 4px #069AE0;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: beige;
+  display: grid;
+  grid-template-areas: "title price" "desc desc" "buy buy"; }
+
+.Product_title {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  grid-area: title; }
+
+.Product_price {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  grid-area: price;
+  justify-self: end; }
+
+.Product_buy {
+  grid-area: buy; }
+
+/*region DESCRIPTION*/
+.Product_descDiv {
+  grid-area: desc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.Product_description {
+  margin-bottom: 8px;
+  font-size: 12px; }
+
+.Product_commentIcon {
+  margin-left: 8px;
+  font-size: 24px;
+  flex-shrink: 0;
+  cursor: pointer; }
+
+/*endregion*/
+/*region COUNTER DIV*/
+.Product_counterWrapper {
+  grid-area: buy;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.Product_deleteBut {
+  flex-basis: 24px;
+  height: 24px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer; }
+
+.Product_emptyDeleteBut {
+  flex-basis: 24px;
+  height: 24px; }
+
+.Product_counterDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.Product_counterLabel {
+  margin: 0 8px;
+  min-width: 32px;
+  text-align: center; }
+
+.Product_root .Product_amountBut {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold; }
+
+/*endregion*/

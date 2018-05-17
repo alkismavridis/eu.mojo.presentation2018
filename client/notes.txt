@@ -1,0 +1,60 @@
+setting up:
+    - create react app
+    - DELETE node_modules
+    - npm install
+    - npm install --save node-sass-chokidar
+    - npm install --save npm-run-all
+
+
+LICENSES:
+    shopping cart icon:
+        RocketTheme eCommerce Icon Pack 1 by RocketTheme - http://www.rockettheme.com
+    user icon
+         https://icons8.com/
+    cashier
+        Cashier by Alfonso Melolonta Urbán from the Noun Project
+    shop icon
+        shopping by icon 54 from the Noun Project
+    flags    (https://www.iconfinder.com/iconsets/world-flag-icons)
+        https://vathanx.deviantart.com/ Vathanx
+
+
+
+
+
+
+3. Code examples
+    - Make a component variable and return it in render
+    - create an other variable with a text, and put it inside the first.
+    - make it an other component.
+
+    - mention that this is not EXACTLY html. Auto closing tags can be used everywhere, but are mandatory.
+
+    - Attributes from strings. mention camel case, and className
+    - attributes as expressions.
+
+
+
+
+4. Components
+    - Show components directory and pick up ShopButton.
+    - render a couple of them in App.js.
+    - Pass props as strings. Then, as expressions.
+    - Show PropTypes and this.props. READ ONLY. The parent change them.
+
+    - change to main page.
+    - Show page on Browser. Take time to make a login, buy, show cart, pay.
+    - Speak about modularity. What would be the individual elements/
+
+
+    - follow the render methods to show how this works
+
+
+
+5. State
+
+6. Manipulating State.
+    AFTER: Show Product component
+
+
+    **** Add Comments feature. ****

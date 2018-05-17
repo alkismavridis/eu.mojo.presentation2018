@@ -1,0 +1,27 @@
+export default {
+    language:"ar",
+    direction:"rtl",
+    main:{
+        buy:"شراء",
+        pay:"دفع %1",
+        about:"حول ..",
+        emptyCart:"تفريغ السلة",
+        logout:"تسجيل الخروج",
+        username:"اسم المستخدم",
+        password:"كلمة المرور",
+        repeatPassword:"إعادة كلمة المرور",
+        login:"تسجيل الدخول",
+        noAcount:"لست مسجل ؟",
+        signin:"تسجيل مستخدم جديد",
+        backToLogin:"عودة إلى تسجيل الدخول",
+
+        noUserName:"الرجاء إدخال اسم مستخدم",
+        noPassword:"الرجاءادخال كلمة مرور",
+        passwordDoNotMatch:"كلمة المرور غير متطابقة",
+        userAlreadyExistsError: "اسم المستخدم %1 موجود مسبقاً",
+        userNotExistsError: "اسم المستخدم %1 غير موجود مسبقاً",
+        wrongPasswordError: "كلمة المرور خاطئة",
+        loginError: "خطأ خلال تسجيل الدخول",
+        signinError: "خطأ خلال عملية التسجيل",
+    },
+};

@@ -1,0 +1,67 @@
+/*region COLORS*/
+/*endregion*/
+/*region UNITS*/
+/*endregion*/
+/*region FONTS*/
+/*endregion*/
+/*region ROOT ELEMENTS*/
+.User_root {
+  position: fixed;
+  bottom: 8px;
+  right: 8px; }
+  .User_root.User_open {
+    z-index: 999; }
+
+.User_userIcon {
+  width: 64px;
+  height: 64px;
+  background: url("../../data/img/user.png") no-repeat;
+  background-size: contain;
+  cursor: pointer; }
+
+.User_nameLabel {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+  background: #069AE0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 2px 8px;
+  cursor: pointer; }
+
+.User_popup {
+  position: absolute;
+  bottom: 8px;
+  right: 100%;
+  background: #1ed4c3;
+  min-width: 200px;
+  max-height: 75vh;
+  overflow: auto;
+  padding: 8px;
+  border: solid 5px #069AE0;
+  border-radius: 10px;
+  z-index: 999; }
+
+/*endregion*/
+/*region LOGIN POPUP*/
+.User_popupLabel {
+  font-size: 12px;
+  font-weight: 800; }
+
+.User_signinLabel {
+  font-size: 12px;
+  font-weight: 800;
+  float: right;
+  cursor: pointer;
+  margin-top: 8px; }
+
+.User_errorMes {
+  margin-top: 16px;
+  color: #ab2333;
+  font-size: 12px;
+  font-weight: 800; }
+
+/*endregion*/

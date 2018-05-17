@@ -1,0 +1,27 @@
+export default {
+    language:"it",
+    direction:"ltr",
+    main:{
+        buy:"compra",
+        pay:"paga %1",
+        about:"chi siamo...",
+        emptyCart:"carrello vuoto",
+        logout:"esci",
+        username:"Nome utente",
+        password:"Password",
+        repeatPassword:"Ripeti Password",
+        login:"Accedi",
+        noAcount:"non sei registrato?",
+        signin:"Registrati",
+        backToLogin:"torna al login",
+
+        noUserName:"Per favore inserisci un nome utente",
+        noPassword:"Per favore inserisci una password",
+        passwordDoNotMatch:"Le password non coincidono",
+        userAlreadyExistsError: "Nome utente %1 già in uso",
+        userNotExistsError: "Nome utente %1 non esiste",
+        wrongPasswordError: "La password non è correttqa",
+        loginError: "Errore durante il login",
+        signinError: "Errore durante l'accesso",
+    },
+};

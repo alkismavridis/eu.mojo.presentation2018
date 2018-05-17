@@ -1,0 +1,27 @@
+export default {
+    language:"gr",
+    direction:"ltr",
+    main:{
+        buy:"Αγορά",
+        pay:"Πληρώστε %1",
+        about:"Περί...",
+        emptyCart:"Αδειάστε το καρότσι",
+        logout:"Έξοδος",
+        username:"Όνομα χρήστη",
+        password:"Κωδικός",
+        repeatPassword:"Επαναλάβετε κωδικό",
+        login:"Σύνδεση",
+        noAcount:"Δεν έχω λογαριασμό",
+        signin:"Εγγραφή",
+        backToLogin:"Πίσω στη σύνδεση",
+
+        noUserName:"Εισάγετε όνομα χρήστη",
+        noPassword:"Εισάγετε κωδικό πρόσβασης",
+        passwordDoNotMatch:"Οι κωδικοί δεν ταιριάζουν",
+        userAlreadyExistsError: "Όνομα χρήστη %1 υπάρχει ήδη",
+        userNotExistsError: "Όνομα χρήστη %1 δεν υπάρχει",
+        wrongPasswordError: "Κωδικός μη έγγυρος",
+        loginError: "Σφάλμα κατά την σύνδεση",
+        signinError: "Σφάλμα κατά την εγγραφή",
+    },
+};

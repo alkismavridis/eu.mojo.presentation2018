@@ -1,0 +1,27 @@
+export default {
+    language:"de",
+    direction:"ltr",
+    main:{
+        buy:"kaufen",
+        pay:"zahlen %1",
+        about:"Über...",
+        emptyCart:"Wahrenkorb leeren",
+        logout:"Ausloggen",
+        username:"Benutzername",
+        password:"Passwort",
+        repeatPassword:"Passwort wiederholen",
+        login:"Einloggen",
+        noAcount:"Noch kein Konto?",
+        signin:"Registrieren",
+        backToLogin:"Zurück zum Login",
+
+        noUserName:"Bitte geben Sie einen Benutzernamen ein.",
+        noPassword:"Bitte geben Sie ein Passwort ein.",
+        passwordDoNotMatch:"Passwörter stimmen nicht überein.",
+        userAlreadyExistsError: "Benutzername existiert bereits.",
+        userNotExistsError: "Dieser Benutzer ist uns nicht bekannt",
+        wrongPasswordError: "Passwort stimmt nicht.",
+        loginError: "Beim Einloggen ist ein Fehler aufgetreten.",
+        signinError: "Beim Registrieren ist ein Fehler aufgetreten.",
+    },
+};

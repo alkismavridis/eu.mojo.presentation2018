@@ -1,0 +1,58 @@
+{
+  "categories": {
+    "food":"Specialità culinarie",
+    "games":"Giochi",
+    "accessories":"Vestiti & Accessori",
+    "vehicles":"Veicoli"
+  },
+  "products": {
+    "cheeseMoon": {
+      "name": "Formaggio lunare",
+      "desc": "Tutti sanno che la luna è realizzata con il formaggio migliore"
+    },
+    "teleportChokolate": {
+      "name": "Cioccolata teletrasportabile",
+      "desc": "Provala con i suoi diversi sapori, dallo schermo alla bocca con un click!"
+    },
+    "lasagne": {
+      "name": "Lasagne",
+      "desc": "Non ho mai conosciuto una lasagna, non mi piace"
+    },
+    "strategema": {
+      "name": "Strategemma",
+      "desc": "Prova a sconfiggere Data nel più complicato gioco di strategia della galassia"
+    },
+    "dunshire": {
+      "name": "Coni della contea buia",
+      "desc": "Comprende una elaborata serie di regole e personaggi giocanti. Il motivo è poco chiaro."
+    },
+    "3dChess": {
+      "name": "Scacchi 3D",
+      "desc": "È come gli scacchi, ma 3d. Vai a chiedere a Sheldon a riguardo."
+    },
+    "tardis": {
+      "name": "Tardis",
+      "desc": "Sembra una cabina telefonica, ma è più grande da dentro che fuori."
+    },
+    "deLorean": {
+      "name": "DeLorean",
+      "desc": "Come una normale macchina, ma capace di viaggiare nel tempo. Comprala ora e otterrai un hoverboard gratis!"
+    },
+    "voyager": {
+      "name": "USS Voyager",
+      "desc": "In sconto! Se per caso ti servisse un Enterprise, ma non puoi permettertela."
+    },
+    "invisibleClock": {
+      "name": "Mantello dell'invisibiltà",
+      "desc": "Nomen est Omen."
+    },
+    "ring": {
+      "name": "L'unico anello",
+      "desc": "Nessuna descrizione è necessaria. A proposito, non puoi coprarlo. È lui a trovarti!"
+    },
+    "linusBlanket": {
+      "name": "La copertina di Linus",
+      "desc": "Lavare prima dell'uso."
+    }
+  }
+}

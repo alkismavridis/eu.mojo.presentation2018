@@ -1,0 +1,11 @@
+@import "../main.scss";
+
+.ShopButton_root {
+  display:block;
+  color: white;
+  background-color: black;
+  padding:$SU;
+  border-radius: 4px;
+  border:none;
+  cursor:pointer;
+}

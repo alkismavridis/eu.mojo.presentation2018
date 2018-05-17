@@ -1,0 +1,107 @@
+@import "../main.scss";
+
+
+.Product_root {
+  border:solid 4px $color1;
+  border-radius: 5px;
+  padding:$SU;
+  background-color: beige;
+
+  display: grid;
+  grid-template-areas:
+    "title price"
+    "desc desc"
+    "buy buy";
+}
+
+.Product_title {
+  font-size: $FS2;
+  margin-bottom: $SU;
+  font-weight: bold;
+
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  grid-area: title;
+}
+
+.Product_price {
+  font-size: $FS3;
+  margin-bottom: $SU;
+  font-weight: 500;
+
+  grid-area: price;
+  justify-self: end;
+}
+
+.Product_buy {
+  grid-area: buy;
+}
+
+
+/*region DESCRIPTION*/
+.Product_descDiv {
+  grid-area: desc;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Product_description {
+  margin-bottom: $SU;
+  font-size: $FS1;
+}
+
+.Product_commentIcon {
+  margin-left: $SU;
+  font-size: $FS4;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+
+/*endregion*/
+
+
+/*region COUNTER DIV*/
+.Product_counterWrapper {
+  grid-area: buy;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Product_deleteBut {
+  flex-basis: $SUx3;
+  height:$SUx3;
+  font-size: $FS4;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Product_emptyDeleteBut {
+  flex-basis: $SUx3;
+  height:$SUx3;
+}
+
+.Product_counterDiv {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Product_counterLabel {
+  margin: 0 $SU;
+  min-width: $SUx4;
+  text-align:center;
+}
+
+.Product_root .Product_amountBut{
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+/*endregion*/

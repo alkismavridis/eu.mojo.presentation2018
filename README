@@ -1,0 +1,40 @@
+Copyright 2018, Alkis Mavridis
+
+This work is written to demonstrate react and graphQL technologies,
+at a presentation at Java developers day,
+2018-05-18, Vienna
+
+
+
+
+eu.mojo.presentation2018 is released as open source software under the GPL v3 license,
+see the COPYING file in the project root for the full license text.
+
+
+
+eu.mojo.presentation2018 is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+eu.mojo.presentation2018 is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with eu.mojo.presentation2018.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+Special Credits for the icons used:
+    shopping cart icon:
+        RocketTheme eCommerce Icon Pack 1 by RocketTheme - http://www.rockettheme.com
+    user icon
+         https://icons8.com/
+    cashier
+        Cashier by Alfonso Melolonta Urbán from the Noun Project
+    shop icon
+        shopping by icon 54 from the Noun Project
+    flags
+        Vathanx --- https://vathanx.deviantart.com/  --- https://www.iconfinder.com/iconsets/world-flag-icons

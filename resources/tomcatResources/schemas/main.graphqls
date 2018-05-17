@@ -1,0 +1,100 @@
+scalar Long
+
+
+
+#region ROOT TYPES
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    #App constants
+    defaultLanguage:String!
+    shop:Shop!
+    languages:[String!]!
+
+    #list getters
+    users:[User!]!
+    user(id:Long): User
+    order:Order
+}
+
+type Mutation {
+    login(username:String!, password:String!):User
+    signin(username:String!, password:String!):User
+    logout:Boolean!
+
+    #order controls
+    addToCart(productId:Long!, times:Int=1): Order
+    removeFromCart(productId:Long!): Order
+    emptyCart: Order
+    createComment(productId:Long!, text: String!): ShopComment
+}
+#endregion
+
+
+
+
+#region ORDER RELATED ENTITIES
+type Shop {
+    currency:String!
+    currencyCode:String!
+
+    products:[Product!]!
+    categories:[ShopCategory!]!
+
+    #single getters
+    product(id:Long!): Product
+
+    #passing 0 means default category, the one that the shop starts with.
+    category(id:Long = 0): ShopCategory
+}
+
+type ShopCategory {
+    id:Long!
+    name(lang:String): String!
+    next:ShopCategory
+    prev:ShopCategory
+    products:[Product]
+}
+
+type Product {
+    id:Long!
+    name(lang:String): String!
+    description(lang:String): String!
+    price:Int!
+
+    category:ShopCategory
+    comments:[ShopComment]
+}
+
+type Order {
+    id:Long!
+    value:Int!
+    entries:[ProductCartEntry!]!
+    entry(id:Long!): ProductCartEntry
+}
+
+type ProductCartEntry {
+    times:Int
+    product:Product
+}
+
+type ShopComment {
+    text: String
+    author: User
+    date: Long
+    id: Long
+}
+#endregion
+
+
+
+
+type User {
+    id:Long!
+    userName:String!
+    isRoot:Boolean!
+}
+

@@ -1,0 +1,39 @@
+@import "../main.scss";
+
+.LanguageMenu_root {
+  position: fixed;
+  top:$SU;
+  left:$SU;
+  user-select: none;
+}
+
+.LanguageMenu_menuPopup {
+  position:absolute;
+  top:$SU;
+  left:100%;
+  width:200px;
+  background: #e9e9f1;
+
+  padding: $SU;
+  border: solid 5px $color1;
+  border-radius: 10px;
+
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.LanguageMenu_langIcon {
+  width:$SUx5;
+  height:$SUx5;
+  object-fit: contain;
+  cursor:pointer;
+}
+
+.LanguageMenu_currentLangIcon {
+  width:$SUx5;
+  height:$SUx5;
+  object-fit: contain;
+  cursor:pointer;
+}

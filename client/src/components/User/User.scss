@@ -1,0 +1,81 @@
+@import "../main.scss";
+
+
+
+/*region ROOT ELEMENTS*/
+.User_root {
+  position: fixed;
+  bottom: $SU;
+  right: $SU;
+
+  &.User_open {
+    z-index: 999;
+  }
+
+}
+
+.User_userIcon {
+  width: $SUx8;
+  height: $SUx8;
+  background: url("../../data/img/user.png") no-repeat;
+  background-size: contain;
+
+  cursor:pointer;
+
+}
+
+.User_nameLabel {
+  position: absolute;
+  bottom:-2px;
+  left:50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+  background: $color1;
+  color:white;
+
+  font-size: $FS2;
+  font-weight: bold;
+  padding:2px 8px;
+  cursor:pointer;
+}
+
+.User_popup {
+  position:absolute;
+  bottom:$SU;
+  right:100%;
+  background: #1ed4c3;
+
+  min-width: 200px;
+  max-height:75vh;
+  overflow: auto;
+  padding: $SU;
+  border: solid 5px $color1;
+  border-radius: 10px;
+  z-index: 999;
+}
+/*endregion*/
+
+
+
+
+/*region LOGIN POPUP*/
+.User_popupLabel {
+  font-size: $FS1;
+  font-weight:800;
+}
+
+.User_signinLabel {
+  font-size: $FS1;
+  font-weight:800;
+  float:right;
+  cursor:pointer;
+  margin-top: $SU;
+}
+
+.User_errorMes {
+  margin-top:$SUx2;
+  color: $colorError;
+  font-size: $FS1;
+  font-weight: 800;
+}
+/*endregion*/

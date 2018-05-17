@@ -1,0 +1,67 @@
+@import "../main.scss";
+
+.ShoppingCart_root {
+  position: fixed;
+  bottom:$SU;
+  left:$SU;
+}
+
+.ShoppingCart_rootIcon {
+  width:$SUx8;
+  height:$SUx8;
+  background: url("../../data/img/shoppingCart.png") no-repeat;
+  background-size: contain;
+
+  cursor:pointer;
+}
+
+.ShoppingCart_priceLabel {
+  position: absolute;
+  bottom:0;
+  left:50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+  background: $color1;
+  color:white;
+
+  font-size: $FS2;
+  font-weight: bold;
+  padding:4px 8px;
+  cursor:pointer;
+}
+
+.ShopInput_input {
+  padding: $SU;
+  border-radius: 5px;
+}
+
+
+.ShoppingCart_popup {
+  position:absolute;
+  bottom:$SU;
+  left:100%;
+  background: #1ed4c3;
+
+  width: 250px;
+  max-height:75vh;
+  overflow: auto;
+  padding: $SU;
+  border: solid 5px $color1;
+  border-radius: 10px;
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.ShoppingCart_emptyBut {
+  font-size: $FS1;
+  font-weight: 800;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.ShoppingCart_prod {
+  margin-top: $SU;
+  flex-shrink: 0;
+}

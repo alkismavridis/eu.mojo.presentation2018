@@ -1,0 +1,44 @@
+/*region COLORS*/
+/*endregion*/
+/*region UNITS*/
+/*endregion*/
+/*region FONTS*/
+/*endregion*/
+.ShopCategoryViewer_root {
+  width: 100%;
+  max-width: 1200px;
+  flex-grow: 1;
+  align-self: center;
+  display: grid;
+  padding: 64px 8px;
+  align-items: center;
+  justify-items: center;
+  background-color: #e9e9f1;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "prev title next" "main main main"; }
+
+.ShopCategoryViewer_title {
+  grid-area: title;
+  font-size: 32px;
+  font-weight: 700; }
+
+.ShopCategoryViewer_prev {
+  grid-area: prev; }
+
+.ShopCategoryViewer_current {
+  grid-area: main;
+  padding: 48px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.ShopCategoryViewer_next {
+  grid-area: next; }
+
+.ShopCategoryViewer_prod {
+  margin-bottom: 8px;
+  width: 250px; }
+
+.ShopCategoryViewer_categoryBut {
+  min-width: 100px; }

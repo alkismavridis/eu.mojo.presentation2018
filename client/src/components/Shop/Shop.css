@@ -1,0 +1,51 @@
+/*region COLORS*/
+/*endregion*/
+/*region UNITS*/
+/*endregion*/
+/*region FONTS*/
+/*endregion*/
+.Shop_root {
+  position: fixed;
+  top: 8px;
+  right: 8px; }
+
+.Shop_rootIcon {
+  background: url("../../data/img/pay.png") no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  width: 64px;
+  height: 64px; }
+
+.Shop_popup {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  background: #1ed4c3;
+  max-height: 75vh;
+  overflow: auto;
+  padding: 8px;
+  border: solid 5px #069AE0;
+  border-radius: 10px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column; }
+
+.Shop_buyButton {
+  width: 200px;
+  margin-bottom: 8px; }
+
+.Shop_aboutBut {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer; }
+
+.Shop_aboutModal {
+  padding: 16px;
+  border: solid 4px #069AE0;
+  border-radius: 5px;
+  background-color: white;
+  max-width: 500px;
+  overflow: auto;
+  max-height: 80vh;
+  max-width: 80vw; }

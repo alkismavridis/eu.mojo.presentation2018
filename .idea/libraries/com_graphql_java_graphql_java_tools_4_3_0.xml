@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="com.graphql-java:graphql-java-tools:4.3.0" type="repository">
+    <properties maven-id="com.graphql-java:graphql-java-tools:4.3.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/graphql-java-tools-4.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-1.1.60.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/graphql-java-6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/antlr4-runtime-4.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/java-dataloader-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reactive-streams-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-module-kotlin-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/kotlin-reflect-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-datatype-jdk8-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/reflectasm-1.11.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/asm-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

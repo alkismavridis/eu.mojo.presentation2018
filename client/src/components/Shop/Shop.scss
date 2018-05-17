@@ -1,0 +1,57 @@
+@import "../main.scss";
+
+.Shop_root {
+  position: fixed;
+  top:$SU;
+  right:$SU;
+}
+
+
+.Shop_rootIcon {
+  background: url("../../data/img/pay.png") no-repeat;
+  background-size: contain;
+  cursor:pointer;
+  width:$SUx8;
+  height:$SUx8;
+}
+
+.Shop_popup {
+  position:absolute;
+  top:0;
+  right:100%;
+  background: #1ed4c3;
+
+  max-height:75vh;
+  overflow: auto;
+  padding: $SU;
+  border: solid 5px $color1;
+  border-radius: 10px;
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Shop_buyButton {
+  width:200px;
+  margin-bottom: $SU;
+}
+
+.Shop_aboutBut {
+  align-self: flex-end;
+  font-size: $FS2;
+  font-weight: 800;
+  cursor:pointer;
+}
+
+.Shop_aboutModal {
+  padding: $SUx2;
+  border: solid 4px $color1;
+  border-radius: 5px;
+
+  background-color: white;
+  max-width: 500px;
+  overflow: auto;
+  max-height: 80vh;
+  max-width: 80vw;
+}

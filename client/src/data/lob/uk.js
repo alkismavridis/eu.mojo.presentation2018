@@ -1,0 +1,27 @@
+export default {
+    language:"uk",
+    direction:"ltr",
+    main:{
+        buy:"buy",
+        pay:"pay %1",
+        about:"About...",
+        emptyCart:"Empty cart",
+        logout:"Logout",
+        username:"Username",
+        password:"Password",
+        repeatPassword:"Repeat Password",
+        login:"Login",
+        noAcount:"No account yet?",
+        signin:"Sign in",
+        backToLogin:"Back to login",
+
+        noUserName:"Please provide user name",
+        noPassword:"Please provide password",
+        passwordDoNotMatch:"Passwords do not match",
+        userAlreadyExistsError: "User name %1 already exists",
+        userNotExistsError: "User name %1 does not exists",
+        wrongPasswordError: "Password is wrong",
+        loginError: "Error while login",
+        signinError: "Error while signing in",
+    },
+};

@@ -1,0 +1,10 @@
+query {
+    shop {
+        currency
+        product(id:6) {
+            comments {
+                text, id, date , author { userName }
+            }
+        }
+    }
+}
